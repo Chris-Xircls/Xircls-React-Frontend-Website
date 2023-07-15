@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#007bff" />
+      <stop offset="100%" stop-color="#0047b3" />
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="150" fill="url(#gradient)" />
+  <circle cx="200" cy="200" r="120" fill="url(#gradient)" transform="rotate(30)" />
+  <circle cx="200" cy="200" r="90" fill="url(#gradient)" transform="rotate(60)" />
+  <circle cx="200" cy="200" r="60" fill="url(#gradient)" transform="rotate(90)" />
+  <image href="path/to/brand-image.png" x="125" y="125" width="150" height="150" />
+</svg>
